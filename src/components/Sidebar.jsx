@@ -47,10 +47,10 @@ const Sidebar = () => {
                 </div>
             </div>
             <div>
-                <div className="w-full h-full bg-gray-200 px-2 py-2 flex justify-center items-center text-primary">
+                <div className="cursor-pointer w-full h-full bg-gray-200 px-2 py-2 flex justify-center items-center text-primary hover:bg-primary hover:text-white transition-all duration-300">
                     Check Cart
                 </div>
-                <div className="w-full h-full bg-primary px-2 py-2 flex justify-center items-center text-white mt-2">
+                <div className=" cursor-pointer w-full h-full bg-primary px-2 py-2 flex justify-center items-center text-white mt-2 hover:bg-stone-500 hover:text-primary transition-all duration-300">
                     Payment
                 </div>
             </div>

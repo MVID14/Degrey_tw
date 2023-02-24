@@ -20,7 +20,7 @@ const CartItem = ({ item }) => {
                                 onClick={() => {
                                     decreaseAmount(id);
                                 }}
-                                className="text-lg flex items-center justify-center"
+                                className="text-lg flex items-center justify-center cursor-pointer"
                             >
                                 <AiOutlineMinus />
                             </div>
@@ -30,7 +30,7 @@ const CartItem = ({ item }) => {
                                     increaseAmount(id);
                                     console.log(fees);
                                 }}
-                                className="text-lg flex items-center justify-center"
+                                className="text-lg flex items-center justify-center cursor-pointer"
                             >
                                 <AiOutlinePlus />
                             </div>
