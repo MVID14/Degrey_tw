@@ -18,11 +18,7 @@ const Header = () => {
         });
     });
     return (
-        <header
-            className={`${
-                isAction ? 'bg-white shadow-2xl py-4' : 'bg-none py-4 shadow-xl'
-            } fixed z-20 transition-all w-full duration-100`}
-        >
+        <header className={`${isAction ? 'bg-white shadow-2xl py-4' : 'bg-none py-4 shadow-xl'} fixed z-20 w-full `}>
             <div className="mx-auto h-full container justify-between flex items-center ">
                 <div className="flex items-center gap-4">
                     <div
@@ -45,7 +41,7 @@ const Header = () => {
                             <Link to={'/'}>Trang chủ</Link>
                         </div>
                         <div className=" border-b-2 hover:border-b-black border-white">
-                            <Link to={'/'}>Sản phẩm</Link>
+                            <Link to={`/Page-product`}>Sản phẩm</Link>
                         </div>
                         <div className=" border-b-2 hover:border-b-black border-white ">
                             <Link to={'/'}>Giới thiệu</Link>

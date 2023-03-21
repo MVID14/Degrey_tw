@@ -25,6 +25,7 @@ const Data = [
         imgSrc: balo1,
         destTitle: 'TieDye BackPack Dark Green - TDBP dark green',
         fees: '700',
+        discount: 15,
     },
     {
         id: 2,
@@ -32,6 +33,7 @@ const Data = [
         imgSrc: balo2,
         destTitle: 'TieDye BackPack Dark Green - TDBP dark green',
         fees: '500',
+        discount: 15,
     },
     {
         id: 3,
@@ -39,6 +41,8 @@ const Data = [
         category: 'Balo',
         destTitle: 'Balo Đám Mây Degrey - BDM',
         fees: '300',
+
+        discount: 15,
     },
     {
         id: 4,
@@ -46,6 +50,8 @@ const Data = [
         imgSrc: balo4,
         destTitle: 'Degrey Tiedye Backpack - DTDB',
         fees: '600',
+
+        discount: 15,
     },
     {
         id: 5,
@@ -53,7 +59,8 @@ const Data = [
         imgSrc: balo4,
         destTitle: 'Degrey Galaxy Backpack - DGB',
         fees: '100',
-        discound: '200',
+
+        discount: 15,
     },
     {
         id: 6,
@@ -61,6 +68,8 @@ const Data = [
         imgSrc: balo1,
         destTitle: 'TieDye BackPack Dark Green - TDBP dark green',
         fees: '500',
+
+        discount: 15,
     },
 
     {
@@ -69,6 +78,8 @@ const Data = [
         imgSrc: balo3,
         destTitle: 'Degrey Galaxy Backpack - DGB',
         fees: '900',
+
+        discount: 15,
     },
 
     {
@@ -77,6 +88,8 @@ const Data = [
         imgSrc: balo5,
         destTitle: 'Degrey Galaxy Backpack - DGB',
         fees: '700',
+
+        discount: 15,
     },
 
     {
@@ -85,6 +98,8 @@ const Data = [
         imgSrc: balo2,
         destTitle: 'Degrey Galaxy Backpack - DGB',
         fees: '700',
+
+        discount: 15,
     },
 
     {
@@ -93,6 +108,8 @@ const Data = [
         imgSrc: balo4,
         destTitle: 'Degrey Galaxy Backpack - DGB',
         fees: '700',
+
+        discount: 15,
     },
     {
         id: 11,
@@ -100,6 +117,8 @@ const Data = [
         category: 'Jacket',
         destTitle: 'Áo Jean Degrey Basic - AJB Xanh',
         fees: '200',
+
+        discount: 15,
     },
     {
         id: 12,
@@ -107,48 +126,62 @@ const Data = [
         imgSrc: jacket2,
         destTitle: 'Áo Jean Degrey Basic Đen - AJB Đen',
         fees: '200',
+
+        discount: 15,
     },
     {
         id: 13,
         category: 'Jacket',
         imgSrc: jacket3,
         destTitle: 'Áo Khoác Nấm Degrey Navy SS2 - AKND Navy SS2',
-        fees: '200',
+        fees: '210',
+
+        discount: 15,
     },
     {
         id: 14,
         category: 'Jacket',
         imgSrc: jacket4,
         destTitle: 'Áo Khoác Nấm Degrey ss2 - AKND ss2',
-        fees: '200',
+        fees: '280',
+
+        discount: 15,
     },
     {
         id: 15,
         category: 'Jacket',
         imgSrc: jacket1,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '270',
+
+        discount: 15,
     },
     {
         id: 16,
         category: 'Jacket',
         imgSrc: jacket5,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '270',
+
+        discount: 15,
     },
     {
         id: 17,
         category: 'Jacket',
         imgSrc: jacket2,
         destTitle: 'Degrey Cardigan D - DCD',
-        fees: '200',
+        fees: '220',
+
+        discount: 15,
     },
     {
         id: 18,
         category: 'Jacket',
         imgSrc: jacket5,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '500',
+
+        discount: 15,
     },
     {
         id: 19,
@@ -156,83 +189,105 @@ const Data = [
         imgSrc: jacket4,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
         fees: '200',
+
+        discount: 15,
     },
     {
         id: 20,
         category: 'Jacket',
         imgSrc: jacket2,
         destTitle: 'Áo Khoác Nấm Degrey ss2 - AKND ss2',
-        fees: '200',
+        fees: '300',
+
+        discount: 15,
     },
     {
         id: 21,
         category: 'Tshirt',
         imgSrc: Tshirt1,
         destTitle: 'Áo Jean Degrey Basic - AJB Xanh',
-        fees: '200',
+        fees: '900',
+
+        discount: 15,
     },
     {
         id: 22,
         category: 'Tshirt',
         imgSrc: Tshirt2,
         destTitle: 'Áo Jean Degrey Basic Đen - AJB Đen',
-        fees: '200',
+        fees: '500',
+
+        discount: 15,
     },
     {
         id: 23,
         category: 'Tshirt',
         imgSrc: Tshirt3,
         destTitle: 'Áo Khoác Nấm Degrey Navy SS2 - AKND Navy SS2',
-        fees: '200',
+        fees: '500',
+
+        discount: 15,
     },
     {
         id: 24,
         category: 'Tshirt',
         imgSrc: Tshirt4,
         destTitle: 'Áo Khoác Nấm Degrey ss2 - AKND ss2',
-        fees: '200',
+        fees: '800',
+
+        discount: 15,
     },
     {
         id: 25,
         category: 'Tshirt',
         imgSrc: Tshirt5,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '500',
+        discount: 15,
     },
     {
         id: 26,
         category: 'Tshirt',
         imgSrc: Tshirt6,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '500',
+        discount: 15,
     },
     {
         id: 27,
         category: 'Tshirt',
         imgSrc: Tshirt5,
         destTitle: 'Degrey Cardigan D - DCD',
-        fees: '200',
+        fees: '600',
+
+        discount: 15,
     },
     {
         id: 28,
         category: 'Tshirt',
         imgSrc: Tshirt3,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '400',
+
+        discount: 15,
     },
     {
         id: 29,
         category: 'Tshirt',
         imgSrc: Tshirt2,
         destTitle: 'Hoodie Xoài Nhí Nhố - HNN',
-        fees: '200',
+        fees: '1000',
+
+        discount: 15,
     },
     {
         id: 30,
         category: 'Tshirt',
         imgSrc: Tshirt1,
         destTitle: 'Áo Khoác Nấm Degrey ss2 - AKND ss2',
-        fees: '200',
+        fees: '400',
+
+        discount: 15,
     },
 ];
 

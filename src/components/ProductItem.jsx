@@ -1,13 +1,16 @@
 import React, { useContext } from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { CartContext } from '../contexts/CartContext';
+import { Link } from 'react-router-dom';
 const ProductItem = ({ product }) => {
     const { id, fees, destTitle, imgSrc } = product;
     const { addToCart } = useContext(CartContext);
     return (
         <div>
             <div className=" flex justify-center items-center object-cover hover:cursor-pointer">
-                <img className=" max-w-[300px] md:max-w-[240px] lg:max-w-[240px] " src={imgSrc} alt="" />
+                <Link to={`/product/${id}`}>
+                    <img className=" max-w-[300px] md:max-w-[240px] lg:max-w-[240px] " src={imgSrc} alt="" />
+                </Link>
             </div>
             <div className="text-sm font-normal text-primary mt-2">{destTitle}</div>
             <div className="flex justify-between items-center mt-4 ">

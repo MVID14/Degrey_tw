@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <Hero />
             <section>
-                <div className="container mx-auto">
+                <div className="container mx-auto  ">
                     <div>
                         <Products />
                     </div>

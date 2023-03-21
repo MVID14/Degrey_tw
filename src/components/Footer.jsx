@@ -10,7 +10,7 @@ import { AiOutlineGooglePlus } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <footer className=" mx-auto w-full bg-black mt-4">
+        <footer className=" mx-auto w-full bg-black mt-4 ">
             <div className="mx-auto h-full container justify-between flex items-center py-12  ">
                 <div className="text-white grid grid-flow-col gap-12 sm:hidden lg:grid">
                     <div className="">

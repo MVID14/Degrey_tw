@@ -5,14 +5,16 @@ import ProductDetail from './pages/ProductDetail';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
+import PageProducts from './pages/PageProducts';
 
 function App() {
     return (
-        <div className="overflow-hidden ">
+        <div className="overflow-hidden">
             <Router>
                 <Header />
                 <Routes>
                     <Route path="/" element={<Home />}></Route>
+                    <Route path="/page-product" element={<PageProducts />}></Route>
                     <Route path="/product/:id" element={<ProductDetail />}></Route>
                 </Routes>
                 <Sidebar />
